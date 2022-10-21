@@ -111,7 +111,9 @@ GEM
     minitest (5.16.3)
     msgpack (1.6.0)
     nio4r (2.5.8)
-    nokogiri (1.13.8-x86_64-darwin)
+    nokogiri (1.13.9-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     public_suffix (5.0.0)
@@ -202,6 +204,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.5.2-x86_64-darwin)
+    sqlite3 (1.5.2-x86_64-linux)
     thor (1.2.1)
     tilt (2.0.11)
     turbolinks (5.2.1)
@@ -234,6 +237,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
